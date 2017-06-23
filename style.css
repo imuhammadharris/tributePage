@@ -1,0 +1,71 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(-45deg, #141E30, #003300);
+}
+.container{
+  padding: 40px;
+}
+.my-img{
+  float: left;
+  width: 50px;
+  border: 1px solid grey;
+  margin-right: 5px;
+}
+.inline{
+  color: #cccccc;
+  foat: left;
+  font-family: 'roboto',sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+h1 {
+  color: #FFF;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 36px;
+  padding-top: 100px;
+  text-align: left;
+  width: 60%;
+}
+h2{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 26px;
+  line-height: 20px;
+  padding-bottom: 30px;
+  text-align: left;
+  width: 70%;
+}
+p{
+  color: AliceBlue;
+  font-size: 20px;
+  font-family: 'roboto',sans-serif;
+  font-weight: 100;
+  line-height: 34px;
+  text-align: left;
+  width: 100%;
+}
+.image{
+  background-image: url("https://i.guim.co.uk/img/media/39f601124a4368121df64fd22a29120fc968221a/0_92_4016_2409/master/4016.jpg?w=1225&q=55&auto=format&usm=12&fit=max&s=035ef58847c553ccd2ed8eb3ea2a38aa");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+.caption{
+  color: #ffffff;
+  background-color: grey;
+  display: block;
+  font-family: 'Playfair Display',serif;
+  font-size: 14px;
+  font-style: italic;
+  margin-left: 20px;
+  padding: 10px;
+  position: relative;
+  top: 80%;
+  width: 60%;
+}
